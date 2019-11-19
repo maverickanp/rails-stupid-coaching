@@ -1,0 +1,14 @@
+<!-- app/views/pages/home.html.erb -->
+<h1>Stupid Coaching</h1>
+<p>Ask your coach anything:</p>
+<form class="form-inline" action="/answer" method="get">
+  <div class="form-group mb-2">
+    <input
+      type="text"
+      class="form-control-plaintext"
+      name="question"
+      placeholder="Question"
+    />
+    <input type="submit" class="btn btn-primary mb-2" value="Ask!" />
+  </div>
+</form>
